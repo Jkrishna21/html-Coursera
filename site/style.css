@@ -1,0 +1,15 @@
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+h1 {
+
+	color: black;
+	background-color: grey;
+}
+
+#main_header{
+	color: brown;
+	background-color: grey;
+}
