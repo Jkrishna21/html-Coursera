@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>Registration form</title>
+    <style>
+      body{
+        background-image: url("logo.png");
+        background-size: 10%;
+        background-repeat: no-repeat;
+      }
+
+
+
+      form {
+        width: 33%;
+        margin: 50px auto;
+        text-align: left;
+        padding: 40px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        background-color: #8FFCF8;
+      }
+      label, input[type="submit"] {
+        display: block;
+        margin-top: 20px;
+      }
+      input[type="text"]  {
+        width: 110%;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+      }
+
+      input[type="password"] {
+        width: 30%;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+      }
+
+      input[type="email"] {
+        width: 80%;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+      }
+
+      .l {
+      float: left;
+
+      }
+
+      .r {
+      float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Register</h2>
+      <div class="l">
+        <label for="name"> Firstname:</label>
+        <input type="text" id="fname" required>
+      </div>
+      <div class="r">
+        <label for="name"> Lastname:</label>
+        <input type="text" id="lname" required>
+      </div>
+
+      <br><br><br><br><br><label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required><br>
+      <input type="radio" id="m" name="fav_language" value="Male">
+      <label for="m">Male</label>
+      <input type="radio" id="f" name="fav_language" value="Female">
+      <label for="f">Female</label><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

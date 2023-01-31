@@ -9,6 +9,16 @@ h1 {
 	background-color: grey;
 }
 
+#red{
+	color: rgb(255,25,200);
+	font-family: "Courier New", monospace;
+	font-size: 35px;
+}
+
+a:hover{
+	color: red;
+}
+
 #main_header{
 	color: brown;
 	background-color: grey;
